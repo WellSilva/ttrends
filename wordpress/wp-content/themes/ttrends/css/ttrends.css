@@ -1,0 +1,413 @@
+html {
+  font-family: "essonnes-display",Georgia,Times,serif;
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+ height: 100%;
+}
+
+header {
+  height: 182px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #5A2328;
+  z-index: 100;
+}
+
+footer {
+  width: 100%;
+  text-align: center;
+  height: 40px;
+  position: fixed;
+  bottom: 0;
+  background-color: #090302;
+  color: #8A7E72;
+  padding-top: 10px;
+}
+
+h1 {
+  font-family: 'Srisakdi', cursive !important;
+  font-size: 98px !important;
+  font-weight: bold;
+}
+
+h1::before {
+  content: "\f7b6";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  padding-right: 30px;
+}
+
+h2 {
+  margin-top: 30px;
+  font-size: 48px;
+}
+
+li.menu-item {
+  background-color: #090302;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 3px;
+  padding: 5px 5px 0 25px;
+  box-shadow: -5px 5px 2px 1px #090302cc;
+}
+
+a.nav-link {
+  position: relative;
+}
+
+a.nav-link::before {
+  content: "\f7b6";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  -webkit-animation: fa-spin 5s infinite linear;
+  animation: fa-spin 5s infinite linear;
+  position: absolute;
+  left: -20px;
+}
+
+li {
+  list-style-type: none;
+}
+
+.main-content {
+  top: 300px;
+  font-family: "essonnes-display",Georgia,Times,serif;
+  font-size: 24px;
+  width: 100%;
+  height: 95%;
+  text-align: center;
+  z-index: -1;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.front-page {
+  height: 100%;
+  width: 100%;
+  margin: 150px auto 0 auto;
+  background-image: url('../images/tea-leaves.jpg');
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  opacity: 0.3;
+  z-index: -1;
+}
+
+.fixer {
+  height: 32px;
+  background-color: #090302;
+  width: 100%;
+  position: fixed;
+  text-align: center;
+  color: #8A7E72;
+  font-family: 'Srisakdi', cursive;
+  font-weight: bold;
+  font-size: 18px;
+  top: 0;
+}
+
+.custom-link {
+  text-decoration: none!important;
+  color: #090302!important;
+}
+
+.navbar-nav {
+  font-family : "Ubuntu", Helvetica,Arial,sans-serif;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #8A7E72;
+  height: 60px;
+}
+
+.navbar-toggler {
+  font-family : "Ubuntu", Helvetica,Arial,sans-serif;
+  background-color: #090302  !important;
+  color: #8A7E72;
+  height: 60px;
+}
+
+.nav-link {
+  color: #8A7E72 !important;
+}
+
+.logo-container {
+  height: 190px;
+  background-color: #090302;
+  width: 260px;
+  position: fixed;
+  margin: 38px auto 0 auto;
+  box-shadow: -5px 5px 2px 1px #090302cc;
+  border-radius: 4px;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 101;
+}
+
+.logo-box {
+  height: 180px;
+  background-image: url('../images/logo.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 220px;
+  position: fixed;
+  margin:42px auto;
+  border-radius: 60px;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 102;
+}
+
+.social-media {
+  position: absolute;
+  top: 80px;
+  width: 100%;
+  font-size: 36px;
+  padding-right: 40px;
+  text-align:right;
+}
+
+.row {
+  opacity: 1 !important;
+}
+
+.blog-header {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.blog-title {
+  margin-top: 30px;
+  margin-bottom: 0;
+  font-size: 60px;
+  font-weight: normal;
+}
+
+.blog-description {
+  font-size: 20px;
+}
+
+/* Active state gets a caret at the bottom */
+.blog-nav .active {
+  color: #fff;
+}
+.blog-nav .active:after {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0;
+  height: 0;
+  margin-left: -5px;
+  vertical-align: middle;
+  content: " ";
+  border-right: 5px solid transparent;
+  border-bottom: 5px solid;
+  border-left: 5px solid transparent;
+}
+
+.blog-main {
+  margin-top: 220px;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 18px;
+  line-height: 1.5;
+  font-family: "essonnes-display",Georgia,Times,serif !important;
+}
+
+/* Sidebar modules for boxing content */
+.sidebar-module {
+  padding: 15px;
+  margin: 0 -15px 15px;
+}
+.sidebar-module-inset {
+  padding: 15px;
+  background-color: #f5f5f5;
+  border-radius: 4px;
+}
+.sidebar-module-inset p:last-child,
+.sidebar-module-inset ul:last-child,
+.sidebar-module-inset ol:last-child {
+  margin-bottom: 0;
+}
+
+/* Pagination */
+.pager {
+  margin-bottom: 60px;
+  text-align: left;
+}
+.pager > li > a {
+  width: 140px;
+  padding: 10px 20px;
+  text-align: center;
+  border-radius: 30px;
+}
+
+/*
+ * Blog posts
+ */
+
+.blog-post {
+  margin-bottom: 60px;
+}
+.blog-post-title {
+  margin-bottom: 5px;
+  font-size: 48px;
+  font-family: "Ubuntu";
+}
+.blog-post-meta {
+  margin-bottom: 20px;
+  color: #7A9B76;
+}
+
+/*
+ * Custom Styles
+ *
+ */
+
+ .showcase{
+   height:600px;
+   padding: 100px 20px;
+   text-align: center;
+   border-bottom:#ccc 1px solid;
+   margin-bottom:30px;
+   color:#fff;
+ }
+
+ .showcase h1{
+   font-size: 55px;
+   padding-bottom:20px;
+   color:#fff;
+ }
+
+ .showcase p {
+   font-size:20px;
+   margin-bottom:50px;
+ }
+
+ .blog-nav a{
+   color: #090302;
+ }
+
+ .blog-nav a:hover{
+   color: #7A9B76;
+ }
+
+ .post-thumb img{
+   width:60%;
+   height:auto;
+   margin-bottom:20px;
+   border-radius: 3px;
+   border-color: #7A9B76;
+   border-width: medium;
+   border-spacing: 3px;
+ }
+
+.comments {
+  border:1px #ccc solid;
+  border-radius: 5px;
+  padding:10px;
+  width: 40%;
+  margin-bottom:20px;
+  margin-top:30px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Ubuntu";
+  text-align: left;
+}
+
+.comments h3,.comments h2{
+  background:#5A2328;
+  border-radius: 3px;
+  color:#8A7E72;
+  padding:10px;
+}
+
+.comment-body {
+  border:#ccc solid 1px;
+  border-radius: 5px;
+  margin-bottom:10px;
+  padding:20px 10px;
+}
+
+.comment-meta{
+  color:#7A9B76;
+  overflow:auto;
+  text-align: right;
+}
+
+.comment-meta a{
+  color:#7A9B76;
+  font-size: 14px;
+}
+
+.comment-meta img{
+  float:left;
+  margin-right:10px;
+}
+
+.comment-reply-link{
+  font-family: "Ubuntu";
+  background:#090302;
+  color:#8A7E72;
+  display: inline-block;
+  padding: 10px 15px;
+  border-radius: 3px;
+  border-color: #090302;
+  box-shadow: -5px 5px 2px 1px #090302cc;
+}
+
+.comment-reply-link:active{
+  background-color: #8A7E72;
+  color: #090302;
+  border-color: #8A7E72;
+}
+
+.comment-form input, .comment-form textarea{
+  width:100%;
+  padding:4px;
+  border:#ccc solid 1px;
+  margin-bottom:15px;
+}
+
+.post-gallery{
+  width: 40%;
+  background:#090302;
+  color:#8A7E72;
+  padding:10px;
+  text-align: center;
+}
+
+.post-gallery h2{
+  color:#8A7E72;
+}
+
+::-webkit-scrollbar {
+    height: 12px;
+    width: 12px;
+    background: black;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.5);
+    -webkit-border-radius: 5px;
+}
+
+::-webkit-scrollbar-corner {
+    background: black;
+}
+
+@media only screen and (max-width: 1000px) {
+    .logo-box{display:none;}
+    .logo-container{display:none;}
+    .social-media{display:none;}
+}
