@@ -138,13 +138,13 @@ li {
 }
 
 .logo-container {
-  height: 190px;
+  height: 180px;
   background-color: #090302;
   width: 260px;
   position: fixed;
   margin: 38px auto 0 auto;
   box-shadow: -5px 5px 2px 1px #090302cc;
-  border-radius: 4px;
+  border-radius: 4px 4px 16px 16px;
   top: 0;
   left: 0;
   right: 0;
@@ -152,15 +152,16 @@ li {
 }
 
 .logo-box {
-  height: 180px;
-  background-image: url('../images/logo.jpg');
+  height: 200px;
+  background-image: url('../images/ttrendz-logo.png');
+  background-color: #8A7E72cc;
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
-  width: 220px;
+  width: 180px;
   position: fixed;
-  margin:42px auto;
-  border-radius: 60px;
+  margin:32px auto;
+  border-radius: 4px 4px 16px 16px;
   top: 0;
   left: 0;
   right: 0;
@@ -216,10 +217,10 @@ li {
 
 .blog-main {
   margin-top: 220px;
-  width: 60%;
+  width: 50%;
   margin-left: auto;
   margin-right: auto;
-  font-size: 18px;
+  font-size: 24px;
   line-height: 1.5;
   font-family: "essonnes-display",Georgia,Times,serif !important;
 }
@@ -267,6 +268,14 @@ li {
 .blog-post-meta {
   margin-bottom: 20px;
   color: #7A9B76;
+}
+
+.blog-post-description {
+  margin-top: 20px;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 38px;
 }
 
 /*

@@ -4,7 +4,7 @@
         <div class="col-sm-8 blog-main">
           <?php if(have_posts()) : ?>
             <?php while(have_posts()) : the_post(); ?>
-          <div class="blog-post">
+          <div class="blog-post-description">
             <h1>
                 <?php the_title(); ?>
             </h1>

@@ -1,7 +1,4 @@
 <div class="blog-post">
-  <h1>Blog</h1>
-  <br>
-  <br>
   <h2 class="blog-post-title">
     <?php if(is_single()) : ?>
       <?php the_title(); ?>

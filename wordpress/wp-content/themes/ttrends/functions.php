@@ -16,7 +16,16 @@
     add_theme_support('post-formats', array('aside', 'gallery'));
   }
 
-  // Post Formats
+  function wpb_init_widgets($id){
+    register_sidebar(array(
+      'name'  => 'Sidebar',
+      'id'    => 'sidebar',
+      'before_widget' => '<div class="sidebar-module">',
+      'after_widget'  => '</div>',
+      'before_title'  => '<h4>',
+      'after_title'   => '</h4>'
+    ));
+  }
 
   // Excerpt Length Control
   function set_excerpt_length(){
@@ -28,4 +37,5 @@
   require_once('wp-bootstrap-navwalker.php');
   add_action('wp_enqueue_scripts', 'scripts_enqueue');
   add_action('after_setup_theme', 'theme_setup');
+  add_action('widgets_init', 'wpb_init_widgets');
  ?>

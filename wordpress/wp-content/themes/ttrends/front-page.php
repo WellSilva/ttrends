@@ -11,6 +11,8 @@
     <br>
     <br>
     <h1>T Trends</h1>
+    <br>
+    <br>
     <h2>We are here to satisfy you with a Unique cup of Pure Ceylon Tea!</h2>
     <br>
     <br>
