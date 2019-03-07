@@ -12,7 +12,7 @@
       <div class="header-box">
         <div class="fixer">T &nbsp;&nbsp;  T r e n d s &nbsp;&nbsp; - &nbsp;&nbsp; T h e &nbsp;&nbsp; b e s t &nbsp;&nbsp;  o f &nbsp;&nbsp;  p u r e  &nbsp;&nbsp;  C e y l o n &nbsp;&nbsp;  T e a</div>
         <div class="row">
-          <div class="col-md-5 col-sm-5">
+          <div class="col-md-5">
             <nav class="navbar navbar-inverse bg-inverse navbar-expand-lg" style="margin-top: 70px;">
                 <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                   MENU

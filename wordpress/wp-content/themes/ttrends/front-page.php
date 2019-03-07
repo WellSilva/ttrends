@@ -9,15 +9,14 @@
     <br>
     <br>
     <br>
-    <br>
-    <h1>T Trends</h1>
+    <h1>TTrends</h1>
     <br>
     <br>
     <h2>We are here to satisfy you with a Unique cup of Pure Ceylon Tea!</h2>
     <br>
     <br>
     <button type="button" class="navbar-toggler" >
-        <a href="products" style="text-transform: none; color: #8A7E72;"> SEE PRODUCTS</a>
+        <a href="index.php/products" style="text-transform: none; color: #8A7E72;"> SEE PRODUCTS</a>
     </button>
 
   </div>
