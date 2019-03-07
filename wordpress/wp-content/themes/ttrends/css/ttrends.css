@@ -52,15 +52,17 @@ h2 {
 
 li.menu-item {
   background-color: #090302;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
   border-radius: 3px;
-  padding: 5px 5px 0 25px;
+  padding: 0px 5px 0 25px;
   box-shadow: -5px 5px 2px 1px #090302cc;
+  height: 30px;
 }
 
 a.nav-link {
   position: relative;
+  font-size: 10px;
 }
 
 a.nav-link::before {
