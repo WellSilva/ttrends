@@ -254,6 +254,13 @@ li {
   margin-bottom: 5px;
   font-size: 48px;
   font-family: "Ubuntu";
+  color: #7A9B76;
+}
+
+a.clean {
+  text-decoration: none;
+  font-family: "Ubuntu";
+  color: #7A9B76;
 }
 .blog-post-meta {
   margin-bottom: 20px;

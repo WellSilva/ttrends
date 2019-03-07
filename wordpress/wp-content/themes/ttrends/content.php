@@ -3,7 +3,7 @@
     <?php if(is_single()) : ?>
       <?php the_title(); ?>
     <?php else : ?>
-      <a href="<?php the_permalink(); ?>">
+      <a href="<?php the_permalink(); ?>" class="clean">
         <?php the_title(); ?>
       </a>
     <?php endif; ?>
